@@ -1,0 +1,68 @@
+.a-name
+{
+  margin-left: 10px;
+  width: 724px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.a-company
+{
+  margin-left: 110px;
+  width: 724px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.a-address
+{
+  margin-left: 120px;
+  width: 724px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.a-city
+{
+  margin-left: 150px;
+  width: 260px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.a-state{
+width: 180px;
+border-bottom:solid;
+border-width: thin;
+}
+.a-zipcode{
+  width: 149px;
+  border-bottom:solid;
+  border-width: thin;
+  }
+.a-phoneno
+{
+  margin-left: 48px;
+  width: 725px; 
+  border-bottom:solid;
+  border-width: thin;
+}
+.a-email
+{
+  margin-left: 139px;
+  width: 724px;  border-bottom:solid;
+  border-width: thin;
+}
+.a-line1
+{
+  margin-left: 70px;
+  width: 300px;
+}
+.a-line2
+{
+  margin-left: 450px;
+}
+.a-line3
+{
+  margin-left: 91px;
+}
+.a-chkbox-no
+{
+  margin-left: 60px;
+}

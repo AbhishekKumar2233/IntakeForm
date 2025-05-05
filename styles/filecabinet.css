@@ -1,0 +1,122 @@
+.cabinet {
+    background-color: rgba(232, 232, 232, 1);
+}
+.file-cabinet-head {
+    padding: 0.813rem 1.563rem;
+    background-color: #DCDCDC;
+
+    
+}
+
+
+ .file-cabinet-head-content-box   img {
+      width: 2.438rem;
+    }
+
+   .file-cabinet-head-content-box h2 {
+      font-size: 1.5rem;
+      color: #000000;
+    }
+  
+
+.file-cabinet-file{
+
+    border: none;
+    padding: 10px;
+    background-color: rgb(244, 242, 242);   
+}
+.file-cabinet-file img{
+    height: 35px;
+    width: 35px;
+  }
+.buttonCard {
+    height: 80px;
+    max-width: 100px;
+    width: 100vw !important;
+    border: 1px solid rgba(234, 229, 225, 1);
+    /* opacity: 0.8; */
+    padding-top: 20px;
+    margin-top: 1px;
+    box-shadow: 0px 1px 2px 0px rgba(234, 229, 225, 1);
+    background-color: white;
+    transition: transform 0.3 ease;
+
+  }
+.buttonCard img{
+    height: 35px;
+    width: 35px;
+  }
+.activeButtonCard{
+    width: 125px;
+    height: 105px;
+    /* // margin-left: -20px !important ;   */
+    transition: transform 0.3 ease;
+    /* // opacity: 0; */
+    border: none;
+    background-size: auto;
+    background-image: url('/public/images/fileCabinetFolder.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+  }
+
+  .activeButtonCard + .buttonCard {
+    margin-top: -10px;
+  }
+  #fileCabinetList img{
+      height: 40px;
+      width: 40px;
+    }  
+    
+    
+
+    .pdf{
+        padding:5px;
+        background-color: whitesmoke;   
+    }
+    #logo .side-menu button {
+        border: none; 
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-left: 10px; 
+    
+       
+        
+       
+     }
+     #logo .side-menu button p{
+        font-size: 8px;
+      }
+      #logo .side-menu button img{
+        width: 15px;
+        height: 15px;
+        object-fit: contain;
+      }
+      #logo .side-menu button img  :hover{
+        transform: scale(1.5);
+        transition: 1 ease-in;
+      }
+      .outer-doc{
+        overflow-y: scroll;
+        height: 60vh;}
+
+        .react-pdf__Page__canvas {
+          width: 100% !important;
+          /* // height: 800px !important; */
+          overflow-y: scroll !important;  
+          }
+       
+          .theme-btn {
+            min-height: 2.375rem;
+            height: 100%;
+            min-width: 5.313rem;
+            padding: 0.438rem 0.813rem;
+            background-color: #76272B;
+            color: #ffffff;
+            border-radius: 2px;
+            font-size: 1.250rem;
+            font-weight: 600;
+            box-shadow: none;
+            border: 1px solid #76272B;
+          }

@@ -1,0 +1,12 @@
+/* .color-brick-red{
+    color:rgb( 115, 33, 23)
+} */
+.border-color-brick-red{
+    border-color:rgb( 115, 33, 23);
+}
+.long-txt-input{
+    width: 800px;
+}
+.long-long-txt-input{
+    width: 1200px;
+}

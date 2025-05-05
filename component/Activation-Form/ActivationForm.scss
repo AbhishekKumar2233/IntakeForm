@@ -1,0 +1,205 @@
+#ActivationForm{
+    background-color: #F0F0F0;
+    overflow-x: hidden;
+    .heading{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 38px;
+    }
+    .subHeading{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #3E3E3E;
+    }
+    .formActivationForm{
+        justify-content: center;
+        background-color: #FFFFFF;
+    }
+    .detailsHeading{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .detailsSubHeading{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #838383;
+    }
+    .dataMainHeadBorder{
+        border-bottom: 1px solid #EBEBEB;
+    }
+    .activationFormInformation, .activationFormAddress {
+        border-right: 1px solid #EBEBEB;
+    }
+    .headingActivationFormAddress{
+        font-size: 18px !important;
+        font-weight: 500 !important;
+        line-height: 30px !important;
+        color: #838383 !important;
+    }
+    .activationFormInformation .headingActivation > div:first-child, .activationFormInformation .headingActivation > div:nth-child(2), .headingActivationfullWidth, .formActivationForm .headingActivationfullWidth > div:first-child {
+        flex: 0 0 auto !important;
+        width: 100% !important;
+    }
+
+    #w-100-all-child{
+        width: 100% !important;
+        * {
+            width: 100% !important;
+        }
+    }
+
+    .activationFormInformation .headingActivation > div:first-child .custom-input-field, .activationFormInformation .headingActivation > div:nth-child(2) .dropdown-calender, .formActivationForm .headingActivationfullWidth > div:first-child .custom-input-field {
+        width: auto !important;
+    }
+
+    .activationFormInformation .headingActivation > div:first-child .custom-input-field input, .activationFormInformation .headingActivation > div:first-child .custom-select-field, .activationFormInformation .headingActivation > div:first-child .dropdown-calender, .formActivationForm .headingActivationfullWidth .phone-number-input, .formActivationForm .custom-textarea-field, .formActivationForm .custom-textarea-field textarea, .activationFormInformationBelow .custom-select-field, .formActivationForm .headingActivationfullWidth .custom-input-field input {
+        // width: 100% !important;
+    }
+
+    .formActivationForm .headingActivationfullWidth .phoneNumberLable {
+        text-wrap: nowrap !important;
+    }
+
+    .formActivationForm .headingActivationfullWidth .phone-number-input  {
+        margin: 0px !important;
+    }
+
+    .activationFormAddress p, .headingActivation p, .activationFormInformation .radio-container p {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #171717;
+    }
+
+    .activationFormInformation .radio-container p, .activationFormInformation .radio-container label, .activationFormInformationBelow .radio-container label {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #4A4A4A;
+    }
+
+    .custom-input-field p{
+        text-wrap: nowrap;
+    }
+
+    .formActivationForm .useNewDesignSCSS{
+        display: flex;
+        justify-content: end;
+    }
+
+    .activationFormInformationBelow{
+        display: flex;
+        align-items: center;
+    }
+
+    .activationFormInformation .radio-container, .activationFormInformation .radio-container div, .activationFormInformationBelow .radio-container, .activationFormInformationBelow .radio-container div {
+        display: flex !important;
+        flex-direction: row !important;
+        margin: 0px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .activationFormInformationBelow .radio-container {
+        margin-top: auto !important;
+    }
+
+    .activationFormInformation .radio-container div label, .activationFormInformationBelow .radio-container div label {
+        margin-top: 0px !important;
+    }
+    .formActivationForm .custom-input-field input{
+        // text-transform: capitalize;
+    } 
+
+    .err-msg-show {
+        color: #F04438;
+        font-size: 14px;
+        font-weight: 400 !important;
+        text-align: left;
+        margin-top: 10px;
+        display: block;
+    }
+
+    #phoneNumber {
+        width: 100% !important;
+    }
+
+    .textareaStyling {
+        width: 100% !important;
+    }
+
+    .dateOfDeath {
+        margin-top: 10px;
+    }
+
+    .activationScroll{
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 72vh;
+        max-height: 72vh;
+
+        &::-webkit-scrollbar {
+            width: 5px ;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1280px) {
+         .bottomDiv .custom-select-field, .bottomDiv .custom-input-field, .activationFormInformation .headingActivation > div:first-child .custom-input-field input, .activationFormInformation .headingActivation > div:first-child .custom-select-field, .activationFormInformation .headingActivation > div:first-child .dropdown-calender, .activationFormInformationBelow .custom-select-field, .activationFormInformationBelow .custom-input-field .customNewCss, .activationFormInformation .headingActivation > div:nth-child(2) .dropdown-calender {
+            width: 250px !important;
+        }
+        .formActivationForm .headingActivationfullWidth .phone-number-input  {
+            margin-top: 5px !important;
+        }
+
+        .phone-number-input , .contactDivMainActivation #custom-input-field > input {
+            width: 100% !important;
+        }
+    }
+    @media (min-width: 1280px) and (max-width: 1480px) {
+        .phone-number-input , .contactDivMainActivation #custom-input-field > input  {
+            width: 100% !important;
+        }
+         .bottomDiv .custom-select-field , .bottomDiv > #custom-input-field, .activationFormInformation .headingActivation > div:first-child .custom-input-field input, .activationFormInformation .headingActivation > div:first-child .custom-select-field, .activationFormInformation .headingActivation > div:first-child .dropdown-calender, .activationFormInformationBelow .custom-select-field, .activationFormInformationBelow .custom-input-field .customNewCss, .activationFormInformation .headingActivation > div:nth-child(2) .dropdown-calender {
+            width: 320px !important;
+        }
+        .formActivationForm .headingActivationfullWidth .phone-number-input  {
+            margin-top: 5px !important;
+        }
+    }
+    @media (min-width: 1481px) and (max-width: 1880px) {
+        .phone-number-input , .contactDivMainActivation #custom-input-field > input  {
+            width: 100% !important;
+        }
+         .bottomDiv .custom-select-field , .bottomDiv > #custom-input-field,  .activationFormInformation .headingActivation > div:first-child .custom-input-field input, .activationFormInformation .headingActivation > div:first-child .custom-select-field, .activationFormInformation .headingActivation > div:first-child .dropdown-calender, .activationFormInformationBelow .custom-select-field, .activationFormInformationBelow .custom-input-field .customNewCss, .activationFormInformation .headingActivation > div:nth-child(2) .dropdown-calender {
+            width: 380px !important;
+        }
+        .formActivationForm .headingActivationfullWidth .phone-number-input  {
+            // margin-top: 5px !important;
+        }
+    }
+    @media (min-width: 1881px) and (max-width: 2380px) {
+        .phone-number-input , .contactDivMainActivation #custom-input-field > input  {
+            width: 100% !important;
+        }
+         .bottomDiv .custom-select-field  , .bottomDiv > #custom-input-field,  .activationFormInformation .headingActivation > div:first-child .custom-input-field input, .activationFormInformation .headingActivation > div:first-child .custom-select-field, .activationFormInformation .headingActivation > div:first-child .dropdown-calender, .activationFormInformationBelow .custom-select-field, .activationFormInformationBelow .custom-input-field .customNewCss, .activationFormInformation .headingActivation > div:nth-child(2) .dropdown-calender {
+            width: 420px !important;
+        }
+        .formActivationForm .headingActivationfullWidth .phone-number-input  {
+            // margin-top: 5px !important;
+        }
+    }
+    @media (min-width: 2381px) and (max-width: 3100px) {
+        .phone-number-input, .custom-select-field , #custom-input-field, .contactDivMainActivation #custom-input-field > input  {
+            width: 100% !important;
+            max-width: 480px;
+        }
+         .bottomDiv .custom-select-field, .bottomDiv > #custom-input-field, .activationFormInformation .headingActivation > div:first-child .custom-input-field input, .activationFormInformation .headingActivation > div:first-child .custom-select-field, .activationFormInformation .headingActivation > div:first-child .dropdown-calender, .activationFormInformationBelow .custom-select-field, .activationFormInformation .headingActivation > div:nth-child(2) .dropdown-calender  {
+            width: 480px !important;
+        }
+        .formActivationForm .headingActivationfullWidth .phone-number-input  {
+            // margin-top: 5px !important;
+        }
+    }
+}

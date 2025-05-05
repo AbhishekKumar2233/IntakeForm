@@ -1,0 +1,33 @@
+.housing-information-container {
+    // padding: 8px;
+    padding: 0px 16px;
+
+    .housing-body{
+        padding: 15px 15px;
+        border-radius: 8px;
+        background-color: white !important;
+       
+        // overflow: auto;
+    }
+
+    .CustomSubSideBarLinks-sidebar-col {
+        padding: 0px;
+    }
+}
+
+// -------------Housing Options --------------------------
+
+.careGiver h3{
+    font-size: 14px;
+    font-weight: 600 !important;
+   
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .laundary{
+        margin-top: 20px !important;
+    }
+}
+.laundary{
+    margin-top: 20px;
+}

@@ -1,0 +1,62 @@
+.custom-stepper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .stepper-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .step.active {
+    background-color: #720c20;
+    color: #fff;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ccc;
+    margin: 0 5px;
+  }
+  
+  
+  .lineColor{
+    background-color: #720c20;
+  }
+  
+  .darkColor{
+    /* background-color: transparent !important; */
+    outline: 1px solid #720c20;
+    position: relative;
+  
+  }
+  
+  .darkColor::after{
+    content: "";
+    position: absolute;
+  /*   background-color: #007bff; */
+    right: 0;
+    width: 20px;
+    height: 8px;
+    border-bottom: 2px solid #720c20;
+    border-left: 2px solid #720c20;
+    
+    transform: translate(-50%, -50%) rotate(-45deg)
+  }

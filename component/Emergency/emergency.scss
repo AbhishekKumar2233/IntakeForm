@@ -1,0 +1,499 @@
+.shortName{
+  width: 72px;
+  min-height: 72px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e6e0e0;
+  outline: 3px solid #FFFFFF;
+  box-shadow: 0px 2px 4px -2px #1018280F;
+  box-shadow: 0px 2px 4px -2px #1018280F;
+}
+
+.shortName h4{
+  padding: 13px 15px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #720D21;
+}
+
+// .short-name {
+//     padding: 13px 15px;
+//     margin: 0 4px 0 0;
+//     border-radius: 50%;
+//     border: 2px solid #e6e0e0;
+//     outline: 3px solid #FFFFFF;
+//     box-shadow: 0px 2px 4px -2px #1018280F;
+//     font-size: 30px;
+//     font-weight: 600;
+//     text-align: center;
+//     color: #720D21;
+// }
+.cardHolder h3{
+ font-size: 16px;
+ font-weight: 400;
+ color: #D5B6BC;
+}
+.cardHolder h1{
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFFFFF;
+ }
+
+.memberDiv{
+  background: #994F59;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.memberDiv img{
+  margin-top: 0px;
+}
+.member_Id h3{
+  font-size: 14px;
+  font-weight: 400;
+  color: #E3CFD3;
+}
+.member_Id h4{
+  font-size: 14px;
+  font-weight: 600;
+  color: "#D5B6BC";
+}
+.medicalInfo h2{
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.addressDiv h4{
+font-size: 14px;
+font-weight: 600;
+color: #FFFFFF;
+}
+.addressDiv h5{
+  font-size: 14px;
+  font-weight: 400;
+  color: #E3CFD3;
+  }
+.powered_By h3{
+  font-size: 12px;
+  font-weight: 400;
+  color: #FFFFFF;
+}  
+.powered_By img{
+  width: 138;
+  height: 65px;
+}
+.lplImg img{
+  width: 155px;
+  height: 65px;
+}
+.medicationTake h4{
+  margin-top: 3px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+}
+.addedNum{
+  height: 22px;
+  font-size: 12px;
+  width: fit-content;
+  padding: 12px 10px;
+  color: #390711;
+  border-radius: 15px;
+  font-weight: 500;
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  border: 1px solid #C79EA6;
+  background: #E3CFD3 !important;
+  }
+  .background-white{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+  }
+  .fs-14{
+
+    font-size:14px;
+  }
+  .fs-13{
+    font-size: 13px !important;
+  }
+  .fs-12{
+    font-size:12px !important;
+  }
+  .Emergency{
+    .li-heading-class{
+      color:#720D21 !important;
+      font-size: 14px;
+      margin-bottom: 0px !important;
+    }
+    .textareaStyling{
+      width:98% !important;
+    }
+    hr{
+      color:#999898;
+      margin: 5px 14px !important;
+    }
+    .radio-label{
+      margin-left: 0px !important;
+    }
+    .custom-input-search{
+      border-radius: 50px !important;
+    }
+    .input-container-Search,.input-container{
+      border-radius: 50px !important;
+      border:1px solid #AEAEAE;
+    }
+  }
+  .mt-5{
+    margin-top: 5px !important;
+  }
+  .mt-10{
+    margin-top: 10px !important;
+  }
+  .py-10{
+    padding-top: 10px !important;
+    padding-bottom:10px !important;
+  }
+  .addMedication{
+    .custom-select-field{
+      width: 100% !important;
+    }
+    .custom-input-field{
+      width: 100% !important;
+    
+    input{
+      width:100% !important;
+    }
+
+    p{
+      width:100% !important;
+      padding-bottom: 0px !important;
+    }
+  }
+  .textareaStyling{
+    width:100% !important;
+  }
+  .custom-textarea-field{
+    p{
+      padding-bottom: 0px !important;
+    }
+  }
+  }
+  .addEmergency{
+    font-size: 14px !important;
+    hr{
+      color:#999898;
+      margin: 5px 0px !important;
+    }
+    .my-10{
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+    }
+  }
+
+  .EmergencyCard {
+    width: 350px; /* ATM card width in pixels */
+    height: 220px; /* ATM card height in pixels */
+    border: 1px solid transparent;
+    font-size: 10px !important; /* Adjusted font size for smaller design */
+    margin: 5px auto;
+  
+    .emergencycard-head {
+      display: flex;
+      width: 100%;
+      height: 8px; /* Adjusted to fit ATM size */
+      background-color: #730E22;
+      color: #ffffff;
+      align-items: center;
+      background-image: url('/New/image/bhEmeregncy.svg');
+      font-size: 8px !important; /* Adjusted */
+      letter-spacing: 2.5px !important;
+  
+      p {
+        font-weight: 400 !important;
+      }
+  
+      img {
+        width: 40px; /* Adjusted size for ATM dimensions */
+        height: 40px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        margin-top: 10px; /* Adjusted spacing */
+        margin-left: 10px;
+      }
+    }
+  
+    .emergencycard-body {
+      width: 100%;
+      height: 185px; /* Adjusted for ATM card height */
+      background-color: #ffffff;
+      background-image: url('/New/image/betterfly.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 30%; /* Scaled for smaller card */
+  
+      .heading {
+        font-size: 8px; /* Adjusted */
+        color: #000000;
+        letter-spacing: 1px !important;
+      }
+  
+      p {
+        font-size: 8px;
+        color: #000000;
+      }
+  
+      .qr-div {
+        display: flex;
+        justify-content: center;
+  
+        div {
+          padding: 8px; /* Adjusted padding */
+          background-color: #ffffff;
+          border-radius: 8px;
+        }
+      }
+  
+      .item-div {
+        margin-top: 10px;
+        width: 50% !important;
+        height: 30px; /* Adjusted height */
+        p {
+          margin-top: 3px;
+          font-size: 8px;
+        }
+      }
+    }
+  
+    .emergency-footer {
+      width: 100%;
+      height: 25px; /* Adjusted for ATM size */
+      background-color: #730E22;
+      background-image: url('/New/image/bhEmeregncy.svg');
+      background-size: cover;
+  
+      p {
+        color: #ffffff;
+      }
+    }
+  
+    .gap-6 {
+      gap: 3rem; /* Adjusted gap */
+    }
+  
+    .emergencycard-body-back {
+      width: 350px; /* ATM card width */
+      height: 220px;
+      background: #730E22;
+      color: #ffffff;
+      background-image: url('/New/image/emergencybg.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      // border: 1px solid white;
+    }
+  
+    .userName {
+      padding-left: 50px !important; /* Adjusted for ATM size */
+    }
+  
+    .fw-12 {
+      font-size: 9px !important;
+    }
+  
+    .fw-10 {
+      font-size: 8px !important;
+    }
+  
+    .fw-8 {
+      font-size: 6px !important;
+    }
+  
+    .fw-9 {
+      font-size: 6.5px !important;
+    }
+  
+    .fw-7 {
+      font-size: 5px !important;
+    }
+
+    .fs-14{
+      font-size: 14px !important;
+    }
+  
+    .bg-white {
+      background-color: #ffffff !important;
+    }
+  
+    .truncated-text-multiline {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+  
+  // @media print {
+  //   body {
+  //     margin: 0;
+  //     padding: 0;
+  //     font-size: 10px;
+  //     -webkit-print-color-adjust: exact;
+  //     margin-top:20px;
+  //   }
+
+  @media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .modals, .modal {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .modal-dialog {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0;
+        padding: 0;
+    }
+    .costumModal-content {
+        page-break-inside: avoid !important;
+    }
+    .emergencycard-body {
+        page-break-inside: avoid;
+    }
+
+    .EmergencyCard {
+      width: 350px; /* ATM card width in pixels */
+      height: 220px; /* ATM card height in pixels */
+      border: 1px solid transparent;
+      font-size: 10px !important; /* Adjusted font size for smaller design */
+      margin: 5px auto;
+    }
+    // .card-container {
+    //   width: 323px; /* Exact ATM card width */
+    //   height: 204px; /* Exact ATM card height */
+    //   margin: 0 auto;
+    //   border-radius: 12px;
+    //   overflow: hidden;
+    //   position: relative;
+    //   page-break-inside: avoid; /* Avoid splitting across pages */
+    // }
+  
+    .emergencycard-head {
+      height: 40px;
+      background-color: #730E22;
+      background-image: url('/New/image/emergencyheadbg.svg');
+      background-size: cover;
+      color: #ffffff;
+      padding: 0 12px;
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+    }
+  
+    .emergencycard-body {
+      flex: 1;
+      // padding: 12px;
+      background-color: #f8f8f8;
+      background-size: cover;
+      font-size: 10px !important;
+      background-size: 30%; /* Scaled for smaller card */
+
+    }
+  
+    .emergency-footer {
+      height: 40px;
+      background-color: #730E22;
+      text-align: center;
+      color: #ffffff;
+      line-height: 40px;
+      font-size: 10px;
+    }
+  
+    .emergencycard-body-back {
+      width: 350px; 
+      height: 100%;
+      background-color: #730E22;
+      color: #ffffff;
+      font-size: 10px;
+      // margin-top: 20px !important;
+    }
+
+    // .px-3{
+    //   padding-left: 0.75rem !important;
+    //   padding-right: 0.75rem !important;
+    // }
+
+    .item-div {
+      margin-top: 10px;
+      width: 50% !important;
+      height: 30px; /* Adjusted height */
+      font-size:8px;
+      p {
+        margin-top: 3px;
+        font-size: 7px !important;
+      }
+    }
+  
+    /* QR Code */
+    .qr-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      margin: 0px auto;
+    }
+
+    .userName {
+      padding-left: 50px !important; /* Adjusted for ATM size */
+    }
+  
+    .fw-12 {
+      font-size: 9px !important;
+    }
+  
+    .fw-10 {
+      font-size: 8px !important;
+    }
+  
+    .fw-8 {
+      font-size: 6px !important;
+    }
+  
+    .fw-9 {
+      font-size: 6.5px !important;
+    }
+  
+    .fw-7 {
+      font-size: 5px !important;
+    }
+
+    .fs-14{
+      font-size: 14px !important;
+    }
+  
+    .bg-white {
+      background-color: #ffffff !important;
+    }
+  }
+  .activeName{
+    color: #720D21;
+  }
+  
+  
+  
+  
+  

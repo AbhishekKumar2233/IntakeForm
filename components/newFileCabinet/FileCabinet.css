@@ -1,0 +1,443 @@
+.cabinet {
+  background-color: rgba(232, 232, 232, 1);
+}
+
+.file-cabinet-head {
+  padding: 0.813rem 1.563rem;
+  background-color: #DCDCDC;
+
+
+}
+
+
+.file-cabinet-head-content-box img {
+  width: 2.438rem;
+}
+
+.file-cabinet-head-content-box h2 {
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+
+.file-cabinet-file {
+
+  border: none;
+  padding: 10px;
+  background-color: rgb(244, 242, 242);
+}
+
+.file-cabinet-file img {
+  height: 35px;
+  width: 35px;
+}
+
+.buttonCard {
+  height: 80px;
+  max-width: 100px;
+  width: 100vw !important;
+  border: 1px solid rgba(234, 229, 225, 1);
+  /* opacity: 0.8; */
+  padding-top: 20px;
+  margin-top: 1px;
+  box-shadow: 0px 1px 2px 0px rgba(234, 229, 225, 1);
+  background-color: white;
+  /* transition: transform 0.3 ease; */
+
+}
+
+.buttonCard img {
+  height: 35px;
+  width: 35px;
+}
+
+.activeButtonCard {
+  width: 125px;
+  height: 105px;
+  /* // margin-left: -20px !important ;   */
+  transition: transform 0.3 ease;
+  /* // opacity: 0; */
+  border: none;
+  background-size: auto;
+  background-image: url('/public/images/fileCabinetFolder.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.activeButtonCard+.buttonCard {
+  margin-top: -10px;
+}
+
+#fileCabinetList img {
+  height: 40px;
+  width: 40px;
+}
+
+
+
+.pdf {
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+#logo .side-menu button {
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+#logo .side-menu button p {
+  font-size: 8px;
+}
+
+#logo .side-menu button img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+
+#logo .side-menu button img :hover {
+  transform: scale(1.5);
+  transition: 1 ease-in;
+}
+
+.outer-doc {
+  overflow-y: scroll;
+  height: 60vh;
+}
+
+.react-pdf__Page__canvas {
+  width: 100% !important;
+  /* // height: 800px !important; */
+  overflow-y: scroll !important;
+}
+
+.theme-btn {
+  min-height: 2.375rem;
+  height: 100%;
+  min-width: 5.313rem;
+  padding: 0.438rem 0.813rem;
+  background-color: #76272B;
+  color: #ffffff;
+  border-radius: 2px;
+  font-size: 1.250rem;
+  font-weight: 600;
+  box-shadow: none;
+  border: 1px solid #76272B;
+}
+.breadcrumb-btn{
+  border: none;
+  background: transparent;
+}
+.breadcrumb{
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+   margin-bottom: 0.5rem !important;
+   
+}
+
+.breadcrumb a{
+  display: flex;
+  justify-content: start;
+  align-self: center;
+  color: #000000;
+}
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+/* drower and folder and file css start*/
+.docText-Tag-Div {
+  position: absolute;
+  top: 32px;
+  cursor: pointer;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+}
+
+.docText-Tag-H6 {
+  font-size: 12px;
+  color: white;
+  /* // font-weight: 600; */
+}
+.sidhiLineImage {
+  width: 100% !important;
+  height: 3px !important;
+  /* margin-top: 55px !important; */
+
+}
+/* drwer and folder and file css end */
+
+
+/* File tree css start */
+
+#tree {
+  display: inline-block;
+  padding: 10px;
+  padding-left: 0px;
+  margin-top: -36px;
+  /* border: 1px solid red; */
+}
+
+#tree * {
+  box-sizing: border-box;
+  
+}
+
+#tree .branch {
+  padding: 5px 0 5px 16px;
+}
+
+
+#tree .branch:not(:first-child) {
+  margin-left: -7px;
+  /* border: 1px solid red; */
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
+
+/* #tree .branch:not(:first-child):after {
+content: "";
+width: 22px;
+border-top: 2px solid rgb(163, 160, 160);
+position: absolute;
+left: -30px;
+top: 15%;
+margin-top: 10px; 
+} */
+#tree .BranchOne:not(:first-child):after {
+  content: "";
+  width: 22px;
+  border-top: 2px solid rgb(163, 160, 160);
+  position: absolute;
+  left: -30px;
+  top: 34%;
+  margin-top: 10px;
+
+}
+
+.entry {
+  position: relative;
+  min-height: 78px;
+  display: block;
+}
+
+.entry:before {
+  content: "";
+  height: 100%;
+  border-left: 2px solid rgb(163, 160, 160);
+  position: absolute;
+  left: -20px;
+}
+
+.entry:first-child:after {
+  height: 10px;
+  border-radius: 10px 0 0 0;
+}
+
+.entry:first-child:before {
+  width: 10px;
+  height: 50%;
+  top: 50%;
+  margin-top: 1px;
+  border-radius: 10px 0 0 0;
+}
+
+.entry:after {
+  content: "";
+  width: 20px;
+  border-top: 2px solid rgb(163, 160, 160);
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  margin-top: 1px;
+}
+
+.entry:last-child:before {
+  width: 10px;
+  height: 50%;
+  border-radius: 0 0 0 10px;
+}
+
+.entry:last-child:after {
+  height: 10px;
+  border-top: none;
+  transition: border 0.5s;
+  border-radius: 0 0 0 10px;
+  margin-top: -9px;
+}
+
+.entry:only-child:after {
+  width: 10px;
+  height: 0px;
+  margin-top: 1px;
+  border-radius: 0px;
+}
+
+.entry:only-child:before {
+  display: none;
+}
+
+.entry span {
+  width: 150px;
+  /* position: ; */
+  top: 50%;
+  margin-top: -12px;
+ 
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+
+/* File tree css end */
+
+/*context menu css  */
+
+.custom-context-menu {
+  display: none;
+  
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 0;
+  list-style: none;
+  position:fixed;
+  top:100 !important;
+  /* left: 320px; */
+  z-index: 1;
+}
+
+.custom-context-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-context-menu li {
+  padding: 8px 12px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.custom-context-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+/*context menu css end  */
+
+
+
+
+
+/* new css file cabinet */
+.file-tool-div{
+  box-shadow: rgba(108, 108, 126, 0.141) 0px 50px 100px -20px, rgba(55, 55, 55, 0.308) 0px 30px 60px -30px, rgba(10, 37, 64, 0.174) 0px -2px 6px 0px inset;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  border-radius: 4px; 
+}
+
+.file-image-div{
+  width: 40%;
+  height: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.file-text-div{
+  padding-left: 4px;
+  padding-right: 4px;
+  width: 60% !important;
+  height: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.filetool-text-tag-h6{
+  color: #720c20;
+}
+
+.folder-text-class{
+  color: #2E86C1;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+/* folder structure component css */
+
+.folderstructure{
+  margin-top: 10px !important;
+}
+
+.folder-save-button{
+  background: #720c20 !important;
+  color: white !important;
+  border: none !important;
+  font-weight: 600;
+}
+.add-file-button{
+   background: white !important;
+  color: #720c20 !important;
+  font-weight: 600 !important;
+  border: none !important;
+}
+
+/* FileStructureForm componnet css start */
+.file-form-h6-tag{
+  font-weight: normal !important;
+}
+.file-form-sub-para-h6-tag{
+  font-size: 13px !important;
+  margin-top: 2px !important;
+}
+
+.file_left_aligntmet{
+  /* border: 1px solid black; */
+  padding-left: 30px;
+}
+.folder_left_aligntmet{
+  /* border: 1px solid black; */
+  padding-left: 38px !important;
+}
+.folder_Inside_left_alignment{
+  padding-left: 70px !important;
+  /* border: 1px solid red; */
+}
+.file_Inside_left_aligntmet{
+  padding-left: 60px !important;
+
+}
+.file_Inside_Inside_left_aligntmet{
+  padding-left: 85px !important;
+
+}
+
+/*  file cabinet checkbox css----------------------------------------------------------------- */
+
+
+.form-check-input[type=checkbox] {
+height: 1.2rem;
+width: 1.2rem;
+margin-top: .5rem;
+}
+.custom-input{
+  height: 400px;
+}
+.custom-checkbox-label {
+  font-size: 1.2rem; 
+  color: #555;
+  margin-left: 10px;
+}

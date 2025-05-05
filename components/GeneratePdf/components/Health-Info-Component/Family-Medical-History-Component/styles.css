@@ -1,0 +1,13 @@
+.borderless-input{
+    border-width:0px;
+    border:none;
+}
+.tbl-input{
+    width: 100px;
+}
+
+.colour-brick-bold{
+    color:  rgb( 144, 12, 63);
+    font-weight: bold;
+
+}

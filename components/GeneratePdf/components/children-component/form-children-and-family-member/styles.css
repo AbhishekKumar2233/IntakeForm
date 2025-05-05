@@ -1,0 +1,12 @@
+#fName{
+    width: 1000px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.long-input-text{
+    width: 1000px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}

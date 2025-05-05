@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title></title>
+    <link href="//api.socialinviter.com/taf.css" rel="stylesheet">
+</head>
+
+<body>
+    <script id="tafscript" src="//api.socialinviter.com/taf.js"></script>
+    <!-- Begin SocialInviter Code -->
+    <script>
+        (function () {
+            function bootSocialInviter(l, c) {
+                var d = document, k = 'https://api.socialinviter.com/', t = 'script', h = 'head', 
+                    o = d.createElement(t);
+                o.src = k + 'taf.js?license='+ l;
+                o.id = 'tafscript';
+                o.async = true;
+                const head = document.getElementsByTagName(h)[0], link = document.createElement("link");
+                if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+                head.appendChild(o);
+                link.rel = "stylesheet", link.type = "text/css", link.href = k + "taf.css", head.appendChild(link);
+            }
+            bootSocialInviter('lic_cf2c019e-1be5-4175-80ab-24a1d', function () {
+                // Load Callback
+            });
+        })();
+      </script>
+      <!-- End SocialInviter Code -->
+    <div class="oauthtaf-loading">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <i class="taf-loading-icon"></i>
+                        <div id="taf-loading-text">Authenticating please wait...</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+             const urlParams = new URLSearchParams(window.location.search);
+             const code = urlParams.get('code');
+             const state = urlParams.get('state');
+             console.log('Code:', code);
+             console.log('State:', state);
+
+            // Process the code and state variables as needed
+            // Add your code logic here
+
+            // Redirect to the desired page
+            
+            // You can also output the code and state variables in the console
+            if(code !== null && code !== ""){
+                window.location.href = `${window.location.origin}/import_contact?code=${code}`;
+            }
+            })
+    </script>
+</body>
+
+</html>

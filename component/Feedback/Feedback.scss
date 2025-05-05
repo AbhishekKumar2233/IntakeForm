@@ -1,0 +1,51 @@
+#feedbackId {
+
+    .openFeedbackBtn {
+        position: fixed;
+        top: 50%;
+        z-index: 999999999;
+        // right: 0;
+        right: -24px;
+
+        .custom-button {
+            font-size: 16px !important;
+            font-weight: 400 !important;
+            padding: 5px 15px;
+        }
+        
+        -webkit-transform: rotate(270deg); /* Safari and Chrome */
+        -moz-transform: rotate(270deg);   /* Firefox */
+        -ms-transform: rotate(270deg);   /* IE 9 */
+        -o-transform: rotate(270deg);   /* Opera */
+        transform: rotate(270deg);
+    }
+
+    .w-100.custom-textarea-field textarea{
+        width: 100% !important;
+    }
+
+    .feedbackModal {
+        #newModal {
+            z-index: 999999999;
+        }
+
+        .submit-btns {
+            display: flex;
+            gap: 10px;
+            flex-flow: row-reverse;
+        }
+
+        .costumModal-body {
+            padding: 0 1rem 1rem;
+            p {
+                font-size: 16px !important;
+                font-weight: 500 !important;
+            }
+        }
+
+        .custom-select-field,  .dropdown {
+            margin-top: 0 !important;
+            height: auto !important;
+        }
+    }
+}

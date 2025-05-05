@@ -1,0 +1,241 @@
+.setup-personalInformation {
+  padding: 21px;
+  margin: 0px 0px;
+  border-radius: 8px;
+  max-height: 100%;
+}
+
+.content-placeholder {
+ 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #5E5E5E;
+  margin-top: 11px;
+  // padding-bottom: 20px;
+}
+.Personal-Details {
+
+
+  .vetern-Info {
+    padding: 24px 16px 24px 16px;
+    gap: 24px;
+    border-radius: 8px;
+    // opacity: 0px;
+    // background-color:#F8F8F8 !important;
+    // background-color:#EFF1F3 !important;
+    // background-color:#D9D9D9!important;
+    background-color: #EDEDED !important;
+
+
+  }
+
+  // StatusMessage.scss
+  .status-message {
+    border: 1px solid #d6bb88;
+    border-radius: 5px;
+    background-color: #fbf7f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 14px;
+    // color: #6b491a;
+    margin: 10px 0;
+
+    height: 50px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px;
+    // opacity: 0px;
+    background: #FAF5ED;
+    border: 1px solid #CD9C49;
+
+    .content-status {
+     
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: #171717 !important;
+
+    }
+
+
+    .close-btn {
+      background: none;
+      border: none;
+      color: #6b491a;
+      font-size: 20px;
+      line-height: 1;
+      cursor: pointer;
+      padding: 0;
+      margin-left: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      // border-radius: 50%;
+      // border: 1px solid #6b491a;
+    }
+
+    .close-btn:hover {
+      color: #000;
+      border-color: #000;
+    }
+  }
+
+}
+
+.setup-personalInformation{
+  .status-message {
+    border: 1px solid #d6bb88;
+    border-radius: 5px;
+    background-color: #fbf7f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 14px;
+    // color: #6b491a;
+    margin: 10px 0;
+
+    height: 50px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px;
+    // opacity: 0px;
+    background: #FAF5ED;
+    border: 1px solid #CD9C49;
+
+    .content-status {
+     
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: #171717 !important;
+
+    }
+
+
+    .close-btn {
+      background: none;
+      border: none;
+      color: #6b491a;
+      font-size: 20px;
+      line-height: 1;
+      cursor: pointer;
+      padding: 0;
+      margin-left: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      // border-radius: 50%;
+      // border: 1px solid #6b491a;
+    }
+
+    .close-btn:hover {
+      color: #000;
+      border-color: #000;
+    }
+  }
+
+}
+
+.status-bacground {
+  background-color: #F8F8F8;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 8px 0px;
+}
+
+
+
+
+// Spouse Invite
+.invite-spouse {
+
+  .formInviteSpouse-label {
+   
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #170307 !important;
+    ;
+
+  }
+
+  .form-control {
+    height: 44px;
+    padding: 10px 14px 10px 14px;
+    gap: 8px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px 0px 1px 1px;
+    // opacity: 0px;
+
+    //styleName: Text md/Regular;
+   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    border-width: 1px, 0px, 1px, 1px;
+    border-style: solid;
+    border-color: #AEAEAE;
+
+
+
+    &:focus {
+      box-shadow: 0px 0px 2px 3px rgba(114, 12, 32, 0.3);
+      border: 1px solid #720c20;
+    }
+
+
+  }
+
+  .send-invite-button {
+    height: 44px;
+    padding: 10px 16px 10px 16px;
+    gap: 6px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px 0px 0px 0px;
+    // opacity: 0px;
+    background-color: #E3CFD3 !important;
+    border: 1px solid #AA6E7A;
+   
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #720D21 !important;
+
+
+    &:hover {
+      border: 1px solid #AA6E7A;
+      color: white;
+    }
+
+
+  }
+}
+
+// -------------mediaQuery---------------
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .textareaStylingObjective {
+      width: 92% !important;
+  }
+}
+// @media (min-width: 1441px) and (max-width: 2560px) {
+//   .textareaStylingObjective {
+//       width: 76% !important;
+//   }
+// }

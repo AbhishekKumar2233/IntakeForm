@@ -1,0 +1,282 @@
+.finance-information-container {
+    padding: 0px;
+
+    .accordion-button{
+        background-color: #FFFFFF;
+        box-shadow: none;
+    }
+
+    .accordion-header{
+        // border-bottom: 1px solid #F0F0F0
+    }
+
+    .accordion-button::after {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230211529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    }
+
+    .accordion-item {
+        border: none !important;
+    }
+
+    .finance-body{
+        padding: 15px 15px !important;
+        border-radius: 8px;
+        background-color: white !important;
+        // max-width: 79%;
+       
+        // overflow: auto;
+    }
+
+    .CustomSubSideBarLinks-sidebar-col {
+        padding: 0px;
+    }
+}
+
+.future-expections {
+    .question-heading {
+        //styleName: Text sm/Semibold;
+       
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+        color: #4A4A4A;
+
+
+    }
+
+    .box {
+        background-color: #F8F8F8;
+    }
+}
+.financeCarousel .carousel-indicators
+{
+    display: none;
+}
+.financeCarousel .carousel-control-next
+{
+    justify-content: end !important;
+    margin-top: 3px;
+    margin-right: 10px;
+    width: 22px;
+}
+
+.financeCarousel .carousel-control-prev-icon
+{
+    background-image: url("./chevron-left.svg");
+    margin-left: 15px !important;
+    background-size: 36px;
+}
+
+.financeCarousel .carousel-control-next-icon
+{
+    background-image: url("./chevron-right.svg");
+    background-size: 36px;
+    // margin-right: 8px !important;
+}
+
+.financeCarousel .carousel-control-prev{
+    justify-content: start !important;
+    margin-top: 3px;
+    margin-right: 7px;
+    width: 29px;
+}
+.financeCarousel  .custom-header-tile
+{
+    // padding: 0px 44px !important;
+    padding: 0px 61px 0px 44px !important;
+    overflow: hidden;
+
+}
+
+.financeCarousel  .carousel-inner
+{
+    height: 51px;
+    // padding: 7px 7px;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    border: 1px solid #CDCDCD;
+}
+
+.custom-header-with-heading .custom-header-tile .active-tab-nav:hover {
+    background-color: #FFFFFF;;
+}
+
+#nonMonthlyExpenses-monthlyExpenses{
+    padding: 20px 0;
+    #custom-input-field{
+        margin-top: 0px;
+        height: auto;
+        width: 100%;
+    }
+    .custom-select-field{
+        margin-top: 0px;
+        height: auto;
+    }
+    .custom-select-field .dropdown{
+        margin-top: 0px;
+    }
+    .custom-table th,
+    .custom-table td  {
+        padding: 12px;
+        color: #222222 !important;
+        font-weight: 500;
+        font-size: 14px;
+        align-content: center;
+        // white-space: nowrap;
+        width: 33%;
+        // height: 100px !important;    	
+    }
+    .custom-table th:first-child,
+    .custom-table td:first-child  {
+        width: 25%;
+    }
+    .phone-number-input{
+        margin: 0px;
+    }
+    .phone-number-input input, .dropdown-selected{
+        font-size: 15px;
+    }
+    .err-msg-show{
+        text-wrap: wrap;
+        position: absolute;
+        padding: 5px;
+    }
+    .Custom-Currency-label{
+        display: none;
+    }
+    .circle-button {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #000000;
+        cursor: pointer;
+        position: relative;
+        margin-left: 10px;
+    }
+    .circle-button::before,
+    .circle-button::after {
+    content: '';
+        position: absolute;
+        background-color: #000000;
+    }
+    .circle-button::before {
+        width: 60%;
+        height: 2px;
+    }
+    .circle-button::after {
+        width: 2px;
+        height: 60%;
+    }
+    .circle-button:focus{
+        box-shadow: 0px 0px 1px 1px rgba(114, 12, 32, 0.3);
+        border: 2px solid #720c20;
+    }
+    .err-msg-show{
+        display: inline;
+        margin: 0px;
+    }
+    .custom-select-field .dropdown-icon:hover{
+        background-color: transparent !important;
+    }
+    .custom-input-field input{
+        margin: 0px;
+        font-size: 15px;
+        // text-transform: capitalize;
+    }
+    .remove-button {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #000000;
+        cursor: pointer;
+        position: relative;
+        margin-left: 10px;
+    }
+    .remove-button::before,
+    .remove-button::after {
+    content: '';
+        position: absolute;
+        background-color: #000000;
+    }
+    .remove-button::before {
+        width: 60%;
+        height: 2px;
+    }
+    .remove-button:focus{
+        box-shadow: 0px 0px 1px 1px rgba(114, 12, 32, 0.3);
+        border: 2px solid #720c20;
+    }
+    .dropdown-options{
+        width: 100% !important;
+    }
+    .totalExpenseAmtNoDrop, .totalExpenseAmtNoDrop input{
+        cursor: no-drop;
+    }
+    .phone-number-input,
+    .phone-number-input input,
+    .custom-input-field input,
+    .custom-input-field p,
+    .custom-select-field {
+        width: 100% !important;
+    }
+}
+.beneficiary-table{
+    .custom-select-field,.custom-input-field,.custom-input-field input{
+        width:170px !important;
+    }
+    .add-btn{
+        color:#720C20;
+        text-decoration: underline;
+        font-size: 13px;
+    }
+    .addressdiv{
+        p{
+            color:#000000;
+            // overflow: auto;
+            text-overflow: ellipsis;
+            // width:40px !important;
+        }
+    }
+    .text-container{
+        width:240px !important;
+    }
+    // .information-table{
+    //     // position: relative;
+
+    //     overflow: visible !important;
+    //     // overflow-y: auto !important;
+    // }
+    .information-table td {
+        padding:8px !important;
+        padding-left:15px !important;
+    }
+    img{
+        cursor: pointer;
+    }
+    .charityName{
+        width:160px !important;
+    }
+    .custom-select-field .dropdown-options{
+        position: relative !important;
+    }
+}
+.beneficiaryModal{
+    .custom-select-field,.custom-input-field,.custom-input-field input,.Custom-Currency-Box{
+        width:100% !important;
+    }
+    .useNewDesignSCSS,.custom-input-field input,.phone-number-input{
+        width:100% !important;
+    }
+    // .text-container{
+    //     width:210px !important;
+    // }
+}

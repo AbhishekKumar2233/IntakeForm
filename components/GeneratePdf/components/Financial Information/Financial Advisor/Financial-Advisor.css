@@ -1,0 +1,104 @@
+.fa-name
+{
+  margin-left: 20px;
+  width: 742px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.fa-company
+{
+  margin-left: 91px;
+  width: 742px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.fa-address
+{
+  margin-left: 102px;
+  width: 742px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.fa-city
+{
+  margin-left: 132px;
+  width: 250px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.fa-state{
+width: 187px;
+border-bottom:solid;
+border-width: thin;
+}
+.fa-zipcode{
+  width: 161px;
+  border-bottom:solid;
+  border-width: thin;
+  }
+.fa-phoneno
+{
+  margin-left: 31px;
+  width: 742px; 
+  border-bottom:solid;
+  border-width: thin;
+}
+.fa-email
+{
+  margin-left: 121px;
+  width: 742px; 
+  border-bottom:solid;
+  border-width: thin;
+}
+.fa-line1
+{
+  margin-left: 140px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.fa-line2
+{
+  margin-left: 163px;
+}
+.fa-line3
+{
+  margin-left: 82px;
+}
+.fa-line4
+{
+  margin-left: 114px;
+}
+.fa-line5
+{
+  margin-left: 110px;
+}
+.fa-line6
+{
+  margin-left: 129px;
+}
+.fa-line7
+{
+  margin-left: 208px;
+}
+.fa-line8
+{
+  margin-left: 151px;
+}
+.fa-line9
+{
+  margin-left:25px;
+  width: 890px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.fa-line10
+{
+  margin-left:25px;
+  width: 890px;
+  border-bottom:solid;
+  border-width: thin;
+}
+.fa-chkbox-no
+{
+  margin-left: 60px;
+}

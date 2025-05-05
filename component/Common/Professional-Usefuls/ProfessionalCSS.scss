@@ -1,0 +1,528 @@
+.professional-all-css {
+    .page-sub-title {
+        font-size: 16px;
+        // font-weight: 600;
+        line-height: 24px;
+        margin: 16px 0;
+    }
+
+    // =============== HANDLING CUSTOM INPUTS CSS =================
+    .custom-input-field, .custom-select-field {
+        height: auto !important;
+        // margin-top: 0;
+
+        input, .dropdown {
+            // margin-top: 6px;
+        }
+
+        > P {
+            padding: 0;
+            margin: 0;
+        }
+        
+    }
+
+    .radio-container {
+        .radio-label {
+            margin-bottom: 0;
+        }
+
+        .my-3 {
+            margin-bottom: unset !important;
+        }
+    }
+
+    .disableView {
+        opacity: 0.5;
+        cursor: not-allowed;
+        * {
+            pointer-events: none;
+        }
+    }
+
+    .err-msg-show {
+        // margin-top: 6px !important;
+    }
+    // ============ END OF HANDLING CUSTOM INPUTS CSS =============
+
+    .professional-table {
+        width: 100%;
+        min-width: 500px;
+        border: 1px solid rgba(205, 205, 205, 1);
+        border-radius: 12px;
+        box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+        .header-box {
+            display: flex;
+            flex-direction: row;
+            // place-items: center;
+            // grid-auto-flow: row;
+            padding: 12px 15px;
+            justify-content: space-between;
+
+            .prof-t1 {
+                display: inline-block;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 28px;
+            }
+
+            .prof-count {
+                border: 1px solid rgba(199, 158, 166, 1);
+                background: rgba(227, 207, 211, 1);
+                border-radius: 16px;
+
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 18px;
+                text-align: center;
+                color: rgba(57, 7, 17, 1);
+                padding: 2px 8px;
+                margin: 0 8px;
+            }
+
+            .search {
+                background: rgba(248, 248, 248, 1);
+                padding: 12px 16px;
+                // gap: 8px;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                margin: 0 16px;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+                
+                input {
+                    border: none;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    padding: 0 8px !important;
+                    background-color: transparent;
+                }
+
+            }
+        }
+
+        .profTableScroll {
+            overflow-y: auto;
+            // min-height: 50vh;
+            // min-height: 10rem !important;
+            // overflow-y: auto;
+            // max-height: 50vh;
+            border-radius: 0 0 12px 12px;
+          
+            &::-webkit-scrollbar {
+              width: 6px;
+            }
+        }
+
+        .custom-table {
+            // position: relative;
+            * {
+                border: none;
+            }
+            .table-header {
+                position: sticky;
+                top: -1px;
+                font-size: 14px;
+                font-weight: 500;
+                // line-height: 18px;
+                background: rgba(240, 240, 240, 1);
+                border-top: 1px solid rgba(205, 205, 205, 1);
+                border-width: 1px 0;
+            }
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin: 0;
+            }
+
+            tr {
+                border-bottom: 1px solid rgba(205, 205, 205, 1);
+            }
+
+            th {
+                margin: 0 !important;
+                padding: 12px;
+                color: rgba(94, 94, 94, 1);
+            }
+
+            td {
+                padding: 24px 12px;
+                color:#5E5E5E;
+                font-size: 14px;
+                align-content: center;
+                // line-height: 20px;
+                
+                &.name {
+                    font-weight: 500;
+                    color: rgba(34, 34, 34, 1) !important;
+                }
+            }
+            
+
+
+
+        }
+    }
+
+    #primaryPhysicianView {
+        margin: 24px 0 0;
+        .prof-t1 {
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 600;
+            // line-height: 28px;
+        }
+
+        .prof-count {
+            border: 1px solid rgba(199, 158, 166, 1);
+            background: rgba(227, 207, 211, 1);
+            border-radius: 16px;
+
+            font-size: 12px;
+            font-weight: 500;
+            // line-height: 18px;
+            text-align: center;
+            color: rgba(57, 7, 17, 1);
+            padding: 2px 8px;
+            margin: 0 8px;
+        }
+
+        .physician-box {
+            width: 100%;
+            min-width: 500px;
+            padding: 24px;
+            margin: 20px 0;
+            border-radius: 16px;
+            background-color: #F1E7E9;
+            border: 1px solid #720D21;
+
+            .short-name {
+                padding: 13px 15px;
+                margin: 0 24px 0 0;
+                border-radius: 50%;
+                border: 1px solid #DED5D6;
+                outline: 3px solid #FFFFFF;
+                box-shadow: 0px 2px 4px -2px #1018280F;
+
+                
+        
+                font-size: 30px;
+                font-weight: 600;
+                // line-height: 38px;
+                text-align: center;
+                color: #720D21;
+            }
+
+            .prof-name {
+        
+                font-size: 18px;
+                font-weight: 600;
+                // line-height: 28px;
+                text-align: left;
+
+                margin-bottom: 8px;
+            }
+
+            .prof-type {
+        
+                font-size: 16px;
+                font-weight: 400;
+                // line-height: 24px;
+                text-align: left;
+                color: #5E5E5E;
+            }
+
+            .edit-btn {
+        
+                font-size: 16px;
+                font-weight: 600;
+                // line-height: 24px;
+                text-align: left;
+                color: #720D21;
+
+                padding: 10px 18px;
+                border-radius: 8px;
+                border: 1px solid #AA6E7A;
+                background-color: #E3CFD3;
+                box-shadow: 0px 1px 2px 0px #1018280D;
+            }
+
+            .prof-contact {
+                margin-top: 22px;
+                padding-top: 22px;
+                border-top: 1px solid #E3CFD3;
+                gap: 2px;
+                justify-content: space-around;
+                
+                div {
+                    align-items: center;
+                    // width: 100%;
+                }
+
+                img {
+                    margin: 0;
+                    margin-right: 6px;
+                }
+            }
+
+            .border-div {
+                border: 1.4px solid #D6D6D6;
+            }
+        }
+    }
+
+    .ps-24 {
+        padding-left: 24px !important;
+    }
+
+    .pe-24 {
+        padding-right: 24px !important;
+    }
+
+    .pt-24 {
+        padding-top: 24px !important;
+    }
+    
+    .mt-24 {
+        margin-top: 24px !important;
+    }
+    
+    .mb-24 {
+        margin-bottom: 24px !important;
+    }
+
+    .pb-24 {
+        padding-bottom: 24px !important;
+    }
+
+
+    .proSecDescICon {
+        cursor: pointer;
+        margin: 0 5px 0 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    .section-title {
+        color: #720D21 !important;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: left;
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 44px;
+        border: none;
+        box-shadow: none !important;
+    }
+
+    .professional-Details {
+        // col > div {
+        //     margin: 50px;
+        // }
+    }
+
+    .form-body {
+        border: 1px solid #F0F0F0;
+        border-left-width: 0;
+        border-right-width: 0;
+        // margin-top: 50px;
+
+        .form-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 20px;
+            // margin-bottom: 20px;
+        }
+
+        .meta-data {
+            .custom-input-field, .custom-select-field  {
+                display: inline;
+                // margin-top: 24px !important;
+                height: unset;
+
+                // > p {
+                //     padding-top: 20px !important;
+                //     // margin: 0;
+                // }
+            }
+        }
+
+        .withDescription {
+            display: flex;
+            column-gap: 24px;
+
+            // > :first-child{
+            //     flex: 3;
+            // }
+            // > :last-child {
+            //     flex: 8;
+            // }
+        }
+    }
+
+    .i-dont-have-one {
+        display: flex;
+        gap: 10px;
+        margin: 10px 0;
+
+        //styleName: Text sm/Medium;
+
+        font-size: 14px;
+        font-weight: 500;
+        // line-height: 20px;
+        // text-align: left;
+
+        align-items: center;
+
+    }
+
+    .prof-modal {
+        .costumModal-content {
+            margin: 20px;
+
+            .modal-title {
+               font-size: 16px; 
+            }
+
+            .modal-header, .costumModal-body {
+                padding: 20px !important;
+            }
+
+            .costumModal-body {
+                padding-top: 0 !important;
+
+                div .mt-24:first-child {
+                    margin-top: 0 !important;
+                }
+            }
+        }
+        .custom-input-field, .custom-select-field  {
+            display: inline;
+            // margin-top: 20px !important;
+
+            > p {
+                padding-top: 20px !important;
+            }
+        }
+
+        .custom-input-field:first-child , .custom-select-field:first-child  {
+            // display: inline;
+            // margin-top: 24px !important;
+
+            > p {
+                padding-top: 0px !important;
+            }
+        }
+    }
+
+    .prof-category-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 0 30px;
+        gap: 20px;
+
+        .category-box {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+
+            padding: 10px 36px;
+            background: #E3CFD3;
+            border: 1px solid #AA6E7A;
+            border-radius: 8px;
+            box-shadow: 0px 1px 2px 0px #1018280D;
+
+    
+            font-size: 16px;
+            font-weight: 600;
+            color: #720D21;
+
+            cursor: pointer;
+    
+            &:hover {
+                background: #d4b9be;
+            }
+        }
+        
+        .selected-box {
+            color: #fff !important;
+            background-color: #720D21 !important;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            margin: 0px !important;
+
+            path {
+                stroke: yellow !important;
+            }
+        }
+    }
+
+    .gap-7rem {
+        gap: 7rem;
+    }
+
+}
+
+// DON'T ADD CSS OUTSIDE OF '.professional-all-css' (IF NEEDED ONLY ADD ID'S CSS)
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .hidePlaceholder
+        {
+            display: none;
+        }
+}
+ 
+@media (max-width: 1350px) {
+    .profBtnMrgn {
+        margin: 0 0 0 185px !important;
+    }
+}
+ 
+.professional-information-container {
+    // padding: 8px;
+    padding: 0px 16px;
+
+    .professional-body{
+        padding: 24px !important;
+        border-radius: 8px;
+        background-color: white !important;
+        // max-width: 79%;
+        
+        // overflow: auto;
+    }
+
+    .CustomSubSideBarLinks-sidebar-col {
+        padding: 0px;
+    }
+}
+
+//  -------------Responsive for 768px to 1200px screen size-----------
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .prof-t1{
+        font-size: 14.7px !important;
+    }
+    .step-line{
+        width: 32vh !important;
+    }  
+    .step-line-active{
+        width: 32vh !important;
+    }
+    .custom-select-field p{
+        margin-top: 0px;
+    }
+}
+
+
+// DON'T ADD CSS OUTSIDE OF '.professional-all-css' (IF NEEDED ONLY ADD ID'S CSS)

@@ -1,0 +1,144 @@
+.div-serve{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.prev-name-and-dob{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+   
+}
+.occupation-pob{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+   
+}
+.address-homePhone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.div-cellPhone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.div-address-workPhone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.div-extra-address{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.div-country-email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.div-us-citizen{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+.div-vetrian-discharge{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.div-vetrian{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+   
+}
+.div-discharge{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding-right: 800px;
+}
+
+
+
+.div-doe-discharge{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+div{
+    padding: 4px;
+}
+input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.full-name{
+    padding: 10px;
+    
+}
+
+
+#i-full-name{
+    width: 500px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.prev-name-and-dob{
+    padding-left: 10px;
+    padding-right: 200px;
+}
+.occupation-pob{
+    padding-left: 10px;
+    padding-right: 200px;
+}
+.address-homePhone{
+    padding-left: 10px;
+    padding-right: 200px;
+}
+.div-cellPhone{
+    padding-left: 60px;
+    padding-right: 200px;
+}
+.div-address-workPhone{
+    padding-left: 10px;
+    padding-right: 200px;
+}
+.div-country-email{
+    padding-left: 10px;
+    padding-right: 200px;
+}
+
+
+.div-dob{
+    padding-left: 92px;
+}

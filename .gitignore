@@ -1,0 +1,7 @@
+node_modules
+.next/
+.vscode/
+ssl
+.DS_Store
+/*.zip
+*.zip

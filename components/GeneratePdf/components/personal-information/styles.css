@@ -1,0 +1,38 @@
+.head{
+    color: #AA4A44;
+    border-bottom: solid;
+    text-align: center;
+}
+#married-info{
+    color: #AA4A44;
+}
+
+.color-brick-red{
+    color:rgb( 115, 33, 23)
+}
+.-color-brick-red{
+    border-bottom-color:rgb( 115, 33, 23);
+    border-bottom-width: 5px;
+}
+hr{
+    color: #AA4A44;
+}
+li{
+    list-style: none;
+}
+.relationship-status{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.lbl-relationship-status{
+    color: #AA4A44;
+}
+
+.form-personal-info{
+    padding:10px;
+}
